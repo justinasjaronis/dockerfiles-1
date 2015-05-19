@@ -3,13 +3,12 @@
   "favicon": "favicon.ico",
   "ip": "0.0.0.0",
   "port" : 8080,
-  "sessionKey" : "{{SESSION_KEY}}",
   "dbType" : "postgres",
   "dbSettings" : {
-    "user"    : "postgres",
+    "user"    : "{{DB_USER}}",
     "host"    : "{{DB_HOST}}",
-    "password": "",
-    "database": "pad"
+    "password": "{{DB_PASSWORD}}",
+    "database": "{{DB_NAME}}"
   },
   "defaultPadText" : "{{DEFAULT_PAD_TEXT}}",
   "requireSession" : false,
